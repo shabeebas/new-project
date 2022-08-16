@@ -1,0 +1,13 @@
+{% extends 'masterpage.html' %}
+{% load static %}
+{% block content %}
+
+<h1>start</h1>
+<img src="{% static 'images/table.jpeg' %}">
+<img src="{% static 'images/img.jpg' %}">
+<a href="{% url 'second' %}">click</a>
+
+{% endblock %}
+
+
+
